@@ -10,19 +10,13 @@ and the AI will create a fully functional prototype for you!
 ### Example Prompts:
 
 ```
-"Build a tic-tac-toe game with player vs computer, win sounds, and game history"
-"Create a todo list app with drag and drop functionality"
-"Make a weather dashboard that shows current conditions and forecasts"
-"Build a calculator with scientific functions and history"
+Build a tic-tac-toe game with player vs computer, with the follwoing criteria: win sounds, and game history
+1. User gets to choose whether they play as 0 or X
+2. If user wins, please make a sound
+3. Has a list of history of of the games on the left hand side and store it in cookies
+4. User has an ability to delete each history or all of them
+Ask me if u have any questions.
 ```
-
-The AI will:
-
-- ✅ Create all necessary files and components
-- ✅ Add proper styling with Tailwind CSS and Nuxt UI
-- ✅ Set up navigation and routing
-- ✅ Implement requested features and functionality
-- ✅ Handle error checking and validation
 
 ## 🛠️ Tech Stack
 
