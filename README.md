@@ -1,12 +1,35 @@
 # Prototype Development Hub
-Build quick prototypes using copilot agent mode.
 
+Build quick prototypes using AI-powered development with simple prompts.
+
+## 🚀 Quick Start
+
+Simply describe what you want to build in the Github Copilot Agent mode,
+and the AI will create a fully functional prototype for you!
+
+### Example Prompts:
+
+```
+"Build a tic-tac-toe game with player vs computer, win sounds, and game history"
+"Create a todo list app with drag and drop functionality"
+"Make a weather dashboard that shows current conditions and forecasts"
+"Build a calculator with scientific functions and history"
+```
+
+The AI will:
+
+- ✅ Create all necessary files and components
+- ✅ Add proper styling with Tailwind CSS and Nuxt UI
+- ✅ Set up navigation and routing
+- ✅ Implement requested features and functionality
+- ✅ Handle error checking and validation
 
 ## 🛠️ Tech Stack
 
 - **Nuxt 3**: Full-stack Vue framework
 - **Nuxt UI**: Component library with beautiful, accessible components
 - **Tailwind CSS**: Utility-first CSS framework
+- **TypeScript**: Type-safe development
 
 ## 📁 Project Structure
 
@@ -18,15 +41,15 @@ app/
 │   └── routes.ts        # Navigation routes configuration
 ├── pages/
 │   ├── index.vue        # Home page
-│   ├── button/
-│   │   └── index.vue    # Button prototype example
-│   └── helloworld/
-│       └── index.vue    # Hello World prototype example
+│   ├── pomodoro/
+│   │   └── index.vue    # Pomodoro timer prototype
+│   └── tictactoe/
+│       └── index.vue    # Tic-tac-toe game prototype
 ```
 
-## 🛠️ Adding New Prototypes
+## 🛠️ Manual Prototype Development
 
-To add a new prototype to your template bank:
+If you want to manually add prototypes:
 
 1. **Create a new folder** in the `app/pages/` directory with your prototype name:
 
@@ -57,7 +80,6 @@ To add a new prototype to your template bank:
      },
    ];
    ```
-   The navigation bar will automatically update to include your new prototype.
 
 ## 🏃‍♂️ Getting Started
 
@@ -74,6 +96,5 @@ To add a new prototype to your template bank:
    ```
 
 3. **Open your browser** and navigate to `http://localhost:3000`
-
 
 Happy prototyping! 🎨

@@ -9,4 +9,5 @@ export const navRoutes: NavRoute[] = [
   { path: "/button", label: "Button", icon: "🔘" },
   { path: "/helloworld", label: "Hello World", icon: "👋" },
   { path: '/pomodoro', label: 'Pomodoro', icon: '⏰' },
+  { path: '/tictactoe', label: 'Tic Tac Toe', icon: '🎮' },
 ];
