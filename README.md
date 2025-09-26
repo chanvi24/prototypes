@@ -1,14 +1,12 @@
-# Template Bank - Prototype Development Hub
+# Prototype Development Hub
+Build quick prototypes using copilot agent mode.
 
-A Nuxt.js-based template bank designed for rapid prototype development and experimentation. This project provides a clean foundation with a collapsible navigation system to help you organize and showcase multiple prototypes in one place.
-
-Good for prototyping your idea with Copilot Agent
 
 ## 🛠️ Tech Stack
 
 - **Nuxt 3**: Full-stack Vue framework
 - **Nuxt UI**: Component library with beautiful, accessible components
-- **Tailwind CSS**: Utility-first CSS framework (included with Nuxt UI)
+- **Tailwind CSS**: Utility-first CSS framework
 
 ## 📁 Project Structure
 
@@ -77,12 +75,5 @@ To add a new prototype to your template bank:
 
 3. **Open your browser** and navigate to `http://localhost:3000`
 
-## 📖 Usage Tips
-
-- Use the hamburger menu (☰) in the top-left to toggle the navigation sidebar
-- To add a new page to the navigation, simply update `app/navigation/routes.ts`—no need to manually edit the layout
-- Each prototype should be self-contained within its own page folder
-- Leverage Nuxt's auto-import features for components and composables
-- Use the existing examples (`button` and `helloworld`) as templates for new prototypes
 
 Happy prototyping! 🎨
